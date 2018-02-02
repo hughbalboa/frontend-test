@@ -224,11 +224,7 @@ const TopBar = ({ getUnreadEmails, getDeletedEmails, getSpamEmails, getCurrentSe
     return (
        <div className="topbar box--100">
           <ul>
-            <li className="close-icons">
-              <span></span>
-              <span></span>
-              <span></span>
-            </li>
+             
             
             <li onClick={() => getCurrentSection("inbox")}>InBox <span>{getUnreadEmails.length}</span></li>
             <li onClick={() => getCurrentSection("spam")}>Spam {getSpamEmails.length}</li>

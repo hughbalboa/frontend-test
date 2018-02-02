@@ -86,40 +86,7 @@ body {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.95);
   padding: 0 10px;
-}
-.topbar ul li:nth-child(2) {
-  padding-left: 60px;
-}
-.topbar li.close-icons span:first-child:before {
-  width: 12px;
-  height: 12px;
-  content: "";
-  background: #FF6058;
-  position: absolute;
-  top: 20px;
-  border-radius: 12px;
-  left: 10px;
-}
-.topbar li.close-icons span:last-child:before {
-  width: 12px;
-  height: 12px;
-  content: "";
-  background: #29C941;
-  position: absolute;
-  top: 20px;
-  border-radius: 12px;
-  left: 50px;
-}
-.topbar li.close-icons span:nth-child(2):before {
-  width: 12px;
-  height: 12px;
-  content: "";
-  background: #FFBD2E;
-  position: absolute;
-  top: 20px;
-  border-radius: 12px;
-  left: 30px;
-}
+} 
 
 .email-list__wrapper {
   height: 100%;
@@ -214,14 +181,14 @@ body {
   background: #eee;
 }
 .email-item .email-item__read[data-read="false"]:before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  background: #FF6058;
-  position: absolute;
-  left: 10px;
-  top: 18px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #039be5;
+    position: absolute;
+    left: 10px;
+    top: 18px;
 }
 .email-item .email-item__time {
   position: absolute;
