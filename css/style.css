@@ -513,8 +513,14 @@ body {
     width: 350px;
 }
 
-  .email-details__wrapper .email-details__container {
+ .email-details__wrapper .email-details__container {
     padding: 30px 20px 20px;
-    width: 540px;
-  }
+    width: 100%;
+}
+    
+    
+    
+    i.fa {
+    margin: 7px;
+}
 }
