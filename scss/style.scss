@@ -33,7 +33,7 @@ body {
 }
 
 #email-app {
-    max-width: 1170px;
+     
     width: 100%;
     margin: 0 auto;
   .email-app__wrapper {
@@ -360,7 +360,9 @@ body {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-  width: 33.33%;}
+  width: 33.33%;
+
+}
 .box--42{width: 41.66%;}
 .box--50 {width: 50%;}
 .box--58 {width: 58.33%;}
@@ -434,6 +436,16 @@ body {
     .box--83 {width: 83.33%;}
     .box--91 {width: 91.66%;}
     .box--100 {width: 100%;}
+  
+  .email-list__container {
+    width: 400px;
+}
+  
+ .email-details__wrapper .email-details__container {
+    padding: 30px 20px 20px;
+    width: 540px;
+} 
+  
 }
 
  
